@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.35rem;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to right, #000021, #17178b);
+}
+
+button:hover{
+    text-decoration: none;
+    background: #f0f0f0;
+    color: #17178b;
+}
+
+button{
+    border: none;
+    background-color: #15141b;
+    color: #f0f0f0;
+}
+
+.operators{
+    background-color: #17178b;
+}
+
+.container{
+    margin:5vh auto;
+    width: 350px;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #5c5c5c;
+}
+
+.output{
+    grid-column: 1/5;
+    min-height: 80px;
+    height: 100%;
+}
+
+.previous-operand,
+.current-operand{
+    padding-right: 15px;
+    height: 50%;
+    text-align: end;
+}
+
+.current-operand{
+    color: #f0f0f0;
+    font-size: 2rem;
+}
+
+.previous-operand{
+    color: #c5c5c5;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.span-two{
+    grid-column: 1/3;
+}
+
+
